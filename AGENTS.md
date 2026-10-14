@@ -18,7 +18,7 @@ research-state.yaml / 控制器派发）下**跳过问候，直接干活**。
 
 ## Research skill library
 
-Full suite migrated from the internal research stack (181 skills incl. research-orchestrator double-loop). Subagents (researcher/verifier/reviewer/writer) are executed via background bash / codex exec instances — Codex has no Agent tool.
+Research library with 114 skills, including the research-orchestrator double loop. Subagents (researcher/verifier/reviewer/writer) are executed via background bash / codex exec instances — Codex has no Agent tool.
 
 ## Paper search backend (v3.4 dual-backend)
 
