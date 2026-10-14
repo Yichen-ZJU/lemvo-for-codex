@@ -1,3 +1,13 @@
+> **已迁移 / Moved:** Lemvo 的 Claude Code 与 Codex CLI 代码已集中到 **[Yichen-ZJU/lemvo](https://github.com/Yichen-ZJU/lemvo)**。后续更新、Issues 与 Star 请前往统一仓库。本仓仅保留历史，不再发布更新。
+>
+> Claude Code and Codex CLI now share **[one Lemvo repository](https://github.com/Yichen-ZJU/lemvo)**. Please use it for updates, issues, and stars. This repository is retained as a read-only historical archive.
+>
+> Codex 安装 / Install: `git clone https://github.com/Yichen-ZJU/lemvo.git` → `cd lemvo/codex` → `bash setup.sh install`.
+
+---
+
+以下为归档版本说明，不是当前安装入口。 / Historical documentation follows; use the installation commands above.
+
 <p align="center"><a href="https://yichen-zju.github.io/lemvo/"><img src="assets/research-cover.png?v=lemvo-agent-3" alt="Lemvo for Codex — A research agent that thinks and acts." width="100%"></a></p>
 
 <h1 align="center">Lemvo for Codex</h1>
