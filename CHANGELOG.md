@@ -1,5 +1,12 @@
 # CHANGELOG — codex-for-research
 
+## 2026-10-14 Runtime recovery and policy consistency
+
+- Preserve cumulative model costs across recovered turns, including old string snapshots; missing authorization sources do not activate a monetary limit. GPU usage remains statistics only.
+- Generate the accounting helper version from one source and migrate existing 4.8 helpers once to 4.9; handle NUL-containing process identities explicitly.
+- Judge baselines by the task and contribution rather than publication year; keep exploration separate from paper-level comparisons.
+- Add isolated CPU adapter regression tests to the standard test command. Source validation does not imply live deployment or a real-model research-loop acceptance.
+
 ## v1.0-codex-engine（2026-09-30）
 
 - 首个公开版：与 claude-for-research 同源的技能体系 Codex 移植（170 技能；按公开版口径去除团队作战/深度攻坚引擎及路由引用、个人 infra 组件）。
